@@ -1,0 +1,12 @@
+<div class="card" [ngStyle]="{'background': backgroundColor}">
+    <a [href]="href">
+        <div>
+            <img [src]="cardImg" alt="">
+            <h2>{{ cardTitle }}</h2>
+        </div>
+        <div class="card-info">
+            <p>{{ cardInfo }}</p>
+        </div>
+    </a>
+    <ng-content select="span"></ng-content>
+</div>

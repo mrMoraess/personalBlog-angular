@@ -1,0 +1,26 @@
+.card {
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card div img {
+    width: auto;
+    height: 150px;
+}
